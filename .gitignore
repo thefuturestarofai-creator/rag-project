@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# API keys
+.env
+
+# 向量数据库存储
+chroma_db/
+
+# 个人学习笔记
+边做边学知识存档/

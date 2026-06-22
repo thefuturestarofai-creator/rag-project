@@ -1,0 +1,3 @@
+FastAPI 是一个 Python Web 框架。
+它速度快，因为基于 Starlette 和 Pydantic。
+FastAPI 支持异步编程，使用 async/await 语法。
