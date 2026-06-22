@@ -1,0 +1,1 @@
+FastAPI 是一个现代、快速的 Python Web 框架，用于构建 API。它基于标准 Python 类型提示，具有高性能、易学易用、减少 bug 等优点。FastAPI 使用 Starlette 处理 Web 部分，使用 Pydantic 处理数据验证。
