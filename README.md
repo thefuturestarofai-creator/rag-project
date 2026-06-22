@@ -35,8 +35,13 @@ uv run python src/main.py
 ```
 rag-project/
 ├── src/
-│   ├── main.py        # RAG 主流程（读取→向量化→存储→检索→生成）
-│   └── test.txt       # 示例知识文档
+│   ├── main.py        # RAG 主流程入口
+│   ├── config.py      # 配置管理（API Key 等）
+│   ├── loader.py      # 文档加载模块
+│   ├── embedder.py    # 文本向量化模块
+│   ├── store.py       # 向量数据库操作模块
+│   └── generator.py   # 大模型生成模块
+├── test.txt           # 示例知识文档
 ├── .env.example       # API Key 配置示例
 ├── pyproject.toml     # 项目依赖配置
 └── .gitignore
